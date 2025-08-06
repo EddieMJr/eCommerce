@@ -1,0 +1,25 @@
+.bookGrid {
+    padding: 2rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    text-align: center;
+}
+
+#covers__img {
+    height: auto;
+    width: 150px;
+    padding-bottom: 2rem;
+}
+
+#libr__h1 {
+    padding: 2rem;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(141, 141, 235);
+    border-radius: 15px;
+    border: rgb(141, 141, 235);
+}
