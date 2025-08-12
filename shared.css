@@ -12,7 +12,7 @@ html {
 /* Navbar styling */
 .topnav {
   overflow: hidden;
-  background-color: #5e005e;
+  background-color: #360036;
   position: relative;
   display: none;
   grid-area: col6;
@@ -31,7 +31,7 @@ html {
 }
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #5e005e;
+  background: #360036;
   display: block;
   position: absolute;
   right: 0;
@@ -40,7 +40,7 @@ html {
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
   background-color: white;
-  color: #5e005e
+  color: #360036;
 }
 /* Style the active link (or home/logo) */
 .active-nav {
@@ -53,7 +53,7 @@ html {
 
 .tabs {
 
-  background-color: #5e005e; 
+  background-color: #360036; 
 }
 
 .tabs__ul {
@@ -138,6 +138,10 @@ html {
     text-decoration: none;
 }
 
+footer {
+  text-align: center;
+}
+
 @media screen and (max-width: 480px){
 
   .tabs__li--2,
@@ -159,7 +163,6 @@ html {
 
   .topnav {
     overflow:scroll;
-    background-color: #5e005e;
     padding: 1rem;
     display: block;
   }
@@ -199,7 +202,6 @@ html {
 
   .topnav {
     overflow:scroll;
-    background-color: #5e005e;
     padding: 1rem;
     display: block;
   }

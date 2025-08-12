@@ -1,0 +1,74 @@
+[
+    {
+        "title": "The Autobiography of Martin Luther King Jr",
+        "desc": "The life of a great civil rights leader told from his own POV!",
+        "price": 15,
+        "img": "https://m.media-amazon.com/images/I/81R6QVj66+L.jpg"
+    },
+    {
+        "title": "Pharrell: Places and Spaces I've Been",
+        "desc": "Some Stories and Pictures from the career of Pharrell Williams!",
+        "price": 25,
+        "img": "https://kweliclub.com/cdn/shop/products/51TP4VOZK1L._SX356_BO1_204_203_200.jpg?v=1436823526"
+    },
+    {
+        "title": "A Survey of the Black Church in America",
+        "desc": "Black Christianity as a whole, in the Bible & in the US.",
+        "price": 15,
+        "img": "https://m.media-amazon.com/images/I/91knCA0fN-L.jpg"
+    },
+    {
+        "title": "X-Men: God Loves, Man Kills",
+        "desc": "An Iconic X-men story that combines action, manipulation & living through hate.",
+        "price": 22,
+        "img": "https://m.media-amazon.com/images/I/519uc01cd3L._UF1000,1000_QL80_.jpg"
+    },
+    {
+        "title": "Marvels",
+        "desc": "What was it like being in marvel universe when the heroes first appeared?",
+        "price": 18,
+        "img": "https://upload.wikimedia.org/wikipedia/en/e/e4/Marvels-01-nm-marvel.jpg"
+    },
+    {
+        "title": "Vagabond Vol. 1 (VIZBIG Edition)",
+        "desc": "The first 3 volumes of one of the greatest stories from Mangaka Takehiko Inoue!",
+        "price": 25,
+        "img": "https://m.media-amazon.com/images/I/A1wpqSGuCNL._UF1000,1000_QL80_.jpg"
+    },
+    {
+        "title": "A Right to Be Hostile: A Boondocks Treasury",
+        "desc": "A collection of comic strips from the iconic Boondocks!",
+        "price": 16,
+        "img": "https://m.media-amazon.com/images/I/71VY9JDDLYL.jpg"
+    },
+    {
+        "title": "The Chronicles of Narnia",
+        "desc": "All 7 of the Narnia books collected in one!",
+        "price": 25,
+        "img": "https://m.media-amazon.com/images/I/81RuC2qCSmL.jpg"
+    },
+    {
+        "title": "Spiderman 3",
+        "desc": "The final movie of Raimi's Spiderman Trilogy in DVD Format!",
+        "price": 20,
+        "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/9b2ca95a-7874-4fdf-9b22-d90792a9234e/difd19e-e6a9eb27-e7c4-40e8-9d74-ac0b6df219b1.png"
+    },
+    {
+        "title": "X-Men Volume 1",
+        "desc": "Volume 1 of the Classic 90's show in DVD Format!",
+        "price": 18,
+        "img": "https://m.media-amazon.com/images/I/815RdazkJ5L._UF894,1000_QL80_.jpg"
+    },
+    {
+        "title": "Songs in the Keys of Life CD",
+        "desc": "Legendary Album from Stevie Wonder in CD Format!",
+        "price": 18,
+        "img": "https://shop.udiscovermusic.com/cdn/shop/products/Stevie-Wonder---Songs-In-The-Key-Of-Life-2CD.png?v=1658437339"
+    },
+    {
+        "title": "I Want You CD",
+        "desc": "Legendary Album from Marvin Gaye in CD Format!",
+        "price": 18,
+        "img": "https://shop.udiscovermusic.com/cdn/shop/products/Marvin-Gaye-I-Want-You-Reissue-1CD.png?v=1632505633&width=1200"
+    }
+]
