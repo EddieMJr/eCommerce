@@ -1,0 +1,39 @@
+.stat__section {
+    padding: 4rem;
+    height: 15rem;
+    display: flexbox;
+}
+
+.stathead__h3 {
+    text-align: center;
+    padding-bottom: 35px;
+    font-size: x-large;
+    text-wrap: flex;
+}
+
+.stat__div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2rem;
+    grid-template-areas: "col1 col2 col3";
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.stat__p {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-wrap: flex;
+    padding: 10px;
+    color: #d51414;
+    margin-bottom: 2rem;
+}
+
+.statDesc__p {
+    font-weight: 700;
+    text-align: center;
+    text-wrap: flex;
+    padding-bottom: 10px;
+ }
