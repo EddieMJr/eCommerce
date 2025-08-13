@@ -11,7 +11,17 @@
     text-wrap: flex;
 }
 
-.stat__div {
+.peak__div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2rem;
+    grid-template-areas: "col1 col2 col3";
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.peakdesc__div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2rem;
@@ -27,7 +37,7 @@
     text-align: center;
     text-wrap: flex;
     padding: 10px;
-    color: #d51414;
+    color: #670067;
     margin-bottom: 2rem;
 }
 

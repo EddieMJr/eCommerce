@@ -6,3 +6,6 @@ This includes:
     Home Page
     Shop Page
     Contact Page
+
+It features: 
+    A JSON file and responsive design.

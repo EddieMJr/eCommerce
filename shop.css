@@ -1,8 +1,8 @@
-.bookGrid {
+#bookGrid {
     padding: 2rem;
     align-items: center;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 50px;
     text-align: center;
 }
@@ -18,8 +18,14 @@
     text-align: center;
 }
 
-button {
-    background-color: rgb(141, 141, 235);
-    border-radius: 15px;
-    border: rgb(141, 141, 235);
+@media screen and (max-width: 800px){
+    #bookGrid {
+    padding: 2rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    text-align: center;
 }
+}
+    
