@@ -12,3 +12,16 @@ fetch('./items.json')
         </div>`)
         });
     });
+
+function validateForm() {
+  const name = document.getElementById('name__input');
+  const form = document.getElementById ('contact__form');
+
+  form.addEventListener('submit', (e) => {
+    let messages = []
+    if (name.value === '' || name.value === null) {
+        alert('Input a valid name!')
+    }
+    e.preventDefault()
+  })
+};

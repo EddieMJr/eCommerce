@@ -30,18 +30,22 @@
       </nav>
     </header>
     <main>
-      <h1>Contact Us!</h1>
+      <h1>contact us!</h1>
       <section id="input__section">
-        <center><label for="name__input">Name:</label>
-        <input type="text" id="name__input" name="name"><br><br>
-        <label for="email__input">E-Mail:</label>
-        <input type="text" id="email__input" name="email"><br><br>
-        <label for="comment__input">Comment:</label>
-        <input type="text" id="comment__input" name="comment"><br><br>
-        <button>Submit</button></center>
+        <center><form id="contact__form">
+          <label for="name__input">Name:</label>
+          <input type="text" id="name__input" name="name" required><br><br>
+          <label for="email__input">E-Mail:</label>
+          <input type="email" id="email__input" name="email" required><br><br>
+          <label for="comment__input">Comment:</label>
+          <input type="text" id="comment__input" name="comment"><br><br>
+          <button>Submit</button>
+        </form></center>
       </section>
     </main>
-    <footer></footer>
+    <div id="footer">
+      <center><a href="https://www.instagram.com/fromeddwuardoo/"><img src="img/insta.webp" width="2.5%"></a></center>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
