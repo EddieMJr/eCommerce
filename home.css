@@ -1,69 +1,67 @@
-.stat__section {
+.cat__section {
     padding: 4rem;
     height: fit-content;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     width: 100vw;
-
+    gap: 2rem;
 }
 
-.stathead__h3 {
+.cathead__h3 {
     text-align: center;
-    padding-bottom: 35px;
+    padding-bottom: 1.5rem;
     font-size: x-large;
     width: 100%;
-    
-
-}
-
-.peak__div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    column-gap: 3rem;
-    gap: 10rem;
-    width: 100%;
-}
-
-.peakdesc__div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    column-gap: 3rem;
-    width: 100%;
-}
-
-.stat__p {
     font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    text-wrap: flex;
-    padding: 10px;
-    color: #670067;
-    margin-bottom: 2rem;
 }
 
-.statDesc__p {
-    font-weight: 700;
+ .music__div {
     text-align: center;
-    text-wrap: flex;
-    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+ .book__div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+ .movies__div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+#catTitle__p {
+    font-size: 3rem;
+    color: #670067;
+    font-weight: bold;
+}
+
+#catDesc__p {
+    font-size: 1.5rem;
+    font-weight: bold;
  }
 
  @media screen and (max-width: 800px){
-    .stathead__h3{
+    .cathead__h3{
         font-size: 1.5rem;
     }
-    .stat__p{
-        font-size: 1.4rem;
-        gap: 700px;
+    #catTitle__p{
+        font-size: 2.5rem;
+        gap: 20rem;
         column-gap: 6rem;
     }
-    .peak__div{
-        gap: 70px;
+    #catDesc__div{
+        gap: 6rem;
         column-gap: 6rem;
+        font-size: 1.5rem;
     }
 
  }
