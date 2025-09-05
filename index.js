@@ -14,14 +14,24 @@ fetch('./items.json')
     });
 
 function validateForm() {
-  const name = document.getElementById('name__input');
-  const form = document.getElementById ('contact__form');
+      const name = document.getElementById('name__input').value.trim();
+      const email = document.getElementById('email__input').value.trim();
+      const comments = document.getElementById('comment__input').value.trim();
 
-  form.addEventListener('submit', (e) => {
-    let messages = []
-    if (name.value === '' || name.value === null) {
-        alert('Input a valid name!')
+      if (name === "") {
+        alert("Please input your name.");
+        return false;
+      }
+
+      if (email === "") {
+        alert("Please input your email.");
+        return false;
+      }
+
+      if (comments === "") {
+        alert("Please give us your thoughts or requests.");
+        return false;
+      }
+
+      return true;
     }
-    e.preventDefault()
-  })
-};
