@@ -4,16 +4,35 @@ h1 {
 }
 
 .input__section {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
     align-items: center;
+    text-align: center;
+}
+
+.formStyle {
+    margin-bottom: 1rem;
 }
 
 input {
     font-size: 1.5rem;
     text-align: left;
-    color: #5e005e;
+    color: #000;
     text-overflow: inherit;
     white-space: wrap;
     width: 50rem;
+    margin: 1rem;
+}
+
+textarea {
+    font-size: 1.5rem;
+    width: 50rem;
+    color: #000;
+    margin-bottom: 1rem;
 }
 
 label {

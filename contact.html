@@ -32,15 +32,25 @@
     <main>
       <h1>any thoughts?</h1>
       <section id="input__section">
-        <center><form id="contact__form">
-          <label for="name__input">Name:</label>
-          <input type="text" id="name__input" name="name" required><br><br>
-          <label for="email__input">E-Mail:</label>
-          <input type="email" id="email__input" name="email" required><br><br>
-          <label for="comment__input">Comment:</label>
-          <input type="text" id="comment__input" name="comment" required><br><br>
-          <button>Submit</button>
-        </form></center>
+        <form id="contact__form" onsubmit="return validateForm()" style="max-width: 400px; margin: auto;">
+          <div id="formStyle">
+            <label for="name__input">Name:</label>
+            <input type="text" id="name__input" name="name" style="width: 100%;">
+          </div>
+
+          <div id="formStyle">
+            <label for="email__input">E-Mail:</label>
+            <input type="email" id="email__input" name="email" style="width: 100%;">
+          </div>
+
+          <div id="formStyle">
+            <label for="comment__input">Comment:</label>
+            <textarea id="comment__input" name="comment" rows="5" style="width: 100%;"></textarea>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+
       </section>
     </main>
     <div id="footer">
