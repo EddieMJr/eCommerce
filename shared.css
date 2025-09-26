@@ -175,11 +175,6 @@ html {
   margin:0% 1%;
 }
 
-#ig_footer {
-  height: 1rem;
-  width: 1rem;
-}
-
 @media screen and (max-width: 480px){
 
   .tabs__li--2,
@@ -219,6 +214,10 @@ html {
     visibility: visible;
     color: white;
 }
+
+  .footer {
+    min-width: 100%;
+  }
 }
 
 @media screen and (max-width: 734px) and (min-width: 481px){
@@ -258,4 +257,8 @@ html {
     visibility: visible;
     color: white;
 }
+
+  .footer {
+    min-width: 100%;
+  }
 }
