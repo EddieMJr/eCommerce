@@ -18,6 +18,15 @@
     text-align: center;
 }
 
+#gridBox_div {
+    padding: 3rem;
+    background: #1d1d1d;
+    border: #670067;
+    border-radius: 5rem;
+    flex-wrap: wrap;
+    flex: auto;
+}
+
 @media screen and (max-width: 800px){
     #bookGrid {
     padding: 2rem;

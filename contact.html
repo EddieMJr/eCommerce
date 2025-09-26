@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="contact.css">
     <title>any thoughts?</title>
+    <link rel="icon" type="image/x-icon" href="/img/wuardoDecalNegro.png">
 </head>
 <body>
     <header class="tabs">
@@ -36,16 +37,19 @@
           <div id="formStyle">
             <label for="name__input">Name:</label>
             <input type="text" id="name__input" name="name">
+            <span id="nameError__span" style="color: #ff0000;"></span>
           </div>
 
           <div id="formStyle">
             <label for="email__input">E-Mail:</label>
-            <input type="email" id="email__input" name="email">
+            <input type="text" id="email__input" name="email">
+            <span id="emailError__span" style="color: #ff0000;"></span>
           </div>
 
           <div id="formStyle">
             <label for="comment__input">Comment:</label>
             <textarea id="comment__input" name="comment" rows="5"></textarea>
+            <span id="commentError__span" style="color: #ff0000;"></span>
           </div>
 
           <button type="submit">Submit</button>
@@ -53,9 +57,27 @@
 
       </section>
     </main>
-    <div id="footer">
-      <center><a href="https://www.instagram.com/fromeddwuardoo/"><img src="img/insta.webp" width="2.5%"></a></center>
-    </div>
+    <footer>
+      <div class="footer">
+        <div class="row">
+        <a href="https://www.instagram.com/fromeddwuardoo/"><img src="img/insta.webp" alt="instagram" width="50rem" height="50rem"></a>
+        </div>
+
+        <div class="row">
+        <ul>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="shop.html">Our Services</a></li>
+        <li><a href="https://www.roadtohire.org/privacy-policy">Privacy Policy</a></li>
+        <li><a href="https://help.instagram.com/581066165581870/">Terms & Conditions</a></li>
+        <li><a href="https://www.roadtohire.org/students/apprenticeships">Career</a></li>
+        </ul>
+        </div>
+
+      <div class="row">
+      edd's digital library &copy; 2025- All rights reserved
+      </div>
+      </div>
+    </footer>
     <script src="index.js"></script>
 </body>
 </html>
