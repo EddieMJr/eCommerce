@@ -1,4 +1,4 @@
-# eCommerce
+# 📚 eCommerce
 
 This project is an eCommerce-style website built to demonstrate my skills in frontend development and responsive design. It simulates a small online store and highlights my ability to structure multi-page sites, organize data, and create a clean user experience.
 
