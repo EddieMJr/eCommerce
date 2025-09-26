@@ -10,27 +10,35 @@ h1 {
 }
 
 form{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 
-.formStyle {
+#formStyle {
     margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#nameError__span {
+    text-wrap:inherit;
 }
 
 input {
+    width: 40rem;
     font-size: 1.5rem;
     text-align: left;
     color: #000;
     text-overflow: inherit;
     white-space: wrap;
-    width: 50%;
     margin: 1rem;
 }
 
 textarea {
+    width: 50rem;
     font-size: 1.5rem;
-    width: 50%;
     color: #000;
     margin-bottom: 1rem;
 }
@@ -46,6 +54,16 @@ label {
 }
 
 button {
+    width: 5rem;
+    height: 3rem;
     background-color: #5e005e;
     font-size: 1.3rem;
+    border: .3rem solid #350035 ;
+    border-radius: 3rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
