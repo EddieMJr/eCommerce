@@ -28,7 +28,7 @@ fetch('./items.json')
 function validateForm() {
       const name = document.getElementById('name__input').value.trim();
       const nameError = document.getElementById('nameError__span')
-      if (name === "") {
+      if (name === "" || /\d/.test(name)) {
         nameError.textContent = "Please input your name.";
         return false;
       } else {
